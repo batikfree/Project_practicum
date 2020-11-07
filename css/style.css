@@ -1,0 +1,40 @@
+
+.menu {
+    display: flex
+    
+}
+
+.menu li {
+    padding: 10px 10px;
+
+    list-style-type: none;
+}
+
+.line {
+     padding: 10px;
+     padding-left: 50px;
+     padding-right: 50px;
+     display: flex;
+     justify-content: center;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.img1 {
+    width: 550px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    width: 550px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+}
+
+
