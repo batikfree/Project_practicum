@@ -52,7 +52,7 @@
 }
 
 .item__inner h4 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     color: white;
     margin: 0;
@@ -60,7 +60,7 @@
     box-sizing: border-box
 }   
  .item__inner h3 {
-        font-size: 50px;
+        font-size: 36px;
         font-weight: 300;
         color: white;
         margin: 0;
@@ -73,10 +73,12 @@
 .menu {
     display: flex
     
+    
 }
 
 .menu li {
     padding: 10px 10px;
+    color: rgb(75, 74, 74);
 
     list-style-type: none;
 }
@@ -92,43 +94,10 @@
 
 .title {
     text-align: center;
+    color: rgb(100, 99, 99);
 }
 
-.container-fluid {
-    width: 40%;
-    order: 1;
+ .item__inner div {
+    margin-top: 55px;
+       
 }
-
-.container-fluid2 {
-    width: 60%;
-    order: 2;
-
-}
-
-    
-        .img-wrap {
-            position: relative;
-          }
-          
-          .img-wrap h1 {
-            width: 60%;
-            order: 2;
-              color: aliceblue;
-              font-weight: 300;
-              letter-spacing: 3px;
-            
-            position: absolute;
-            left: 53px;
-            bottom: 200px;
-            width: 100%;
-          }
-
-          .img-wrap h3 {
-            color: aliceblue;
-            font-weight: 300;
-          
-          position: absolute;
-          left: 260px;
-          bottom: 250px;
-          width: 100%;
-        }
